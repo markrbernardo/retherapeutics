@@ -20,7 +20,7 @@ p {
 
 
 body{
-    font-size: calc(1.5em + 0.390625vw)
+    font-size: calc(1.5em + 0.390625vw);
 }
 
 
@@ -36,12 +36,13 @@ nav {
     padding: 1em 1em 0em 1em;
     background: whitesmoke;
     min-height:2em;
+    max-height: 25vh;
     border-bottom: 0.1em solid darkgray;
 }
 
 .header-container{
     padding-left: 1em;
-    min-height: 50%;       /* uses 50% of parent div (header element) height */
+    min-height: 52%;       /* uses 50% of parent div (header element) height */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
