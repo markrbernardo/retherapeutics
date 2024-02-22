@@ -1,4 +1,5 @@
 # Relax + Embody Therapeutics Website
+[Preview Link](https://htmlpreview.github.io/?https://github.com/markrbernardo/retherapeutics/blob/main/website/index.html)
 
 ## Project Description
 A simple interactive website to allow customers to view services, offerings, and tell the customer a little bit more about what the business is and what to expect.
