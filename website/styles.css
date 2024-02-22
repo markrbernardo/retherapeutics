@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: black;
+}
+
+
+h1 {
+    font-family: playfair-display, serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+p {
+    font-family: roboto, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    font-size: calc(15px + 0.390625vw)
+}
+
+
+header {
+    background: rgb(71, 102, 71);
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 1em 1em 0em 1em;
+    background: whitesmoke;
+    min-height:2em;
+    border-bottom: 0.1em solid darkgray;
+}
+
+.header-container{
+    padding-left: 1em;
+    min-height: 50%;       /* uses 50% of parent div (header element) height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#header-text {
+    font-family: playfair-display, serif;
+    font-weight: 900;
+    font-size: 3.5em;
+    font-style: normal;
+    color: white;
+}
+
+#header-tagline{
+    color: white;
+    margin-bottom: auto;
+    padding-top: 1em;
+}
+
+#header-scrolltext {
+    color: white;
+    padding-bottom: 1em;
+    align-self: center;
+}
+
+.main-container {
+    padding-left: 1em;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-services,
+#main-booking{
+    background: rgb(247, 247, 247);
+}
+
+#main-about,
+#main-therapists {
+    color: White;
+    background: rgb(164, 127, 85);
+}
+
+#main-expectations,
+#main-faqs {
+    color: White;
+    background: rgb(71, 102, 71);
+}
+
+#main-blog {
+    background: rgb(247, 247, 247);
+}
+
+
+.main-button {
+    background: rgb(255, 221, 0);
+    margin-top: 7em;
+    padding: 0.5em 1em;
+    max-width: 15em;
+    border: 1px solid rgb(32, 51, 32);
+    border-radius: 2em;
+    align-self: center;
+}
+
+
+footer {
+    padding: 0.5em;
+    border-top: 0.1em solid darkgray;
+}
