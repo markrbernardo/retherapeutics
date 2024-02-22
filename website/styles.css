@@ -33,10 +33,10 @@ header {
 }
 
 nav {
-    padding: 1em 1em 0em 1em;
+    padding: 1.25em 1.25em 0.25em 1.25em;
     background: whitesmoke;
     min-height:2em;
-    max-height: 25vh;
+    max-height: 5em;
     border-bottom: 0.1em solid darkgray;
 }
 
