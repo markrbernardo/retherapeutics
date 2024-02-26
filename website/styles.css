@@ -41,6 +41,10 @@ nav {
     border-bottom: 0.1em solid darkgray;
 }
 
+#nav-logo {
+    padding-top: 0;
+}
+
 .header-container{
     padding-left: 1em;
     min-height: 52%;       /* uses 50% of parent div (header element) height */
@@ -55,6 +59,7 @@ nav {
     font-size: 3.5em;
     font-style: normal;
     color: white;
+    padding-top: .25em;
 }
 
 #header-tagline{
