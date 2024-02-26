@@ -22,23 +22,28 @@ p {
 
 body{
     font-size: calc(1.5em + 0.390625vw);
+    display: flex;
+    flex-direction: column;
 }
 
 
 header {
     background: rgb(71, 102, 71);
-    height: 99vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 2px solid red;
+    flex: 1;
 }
 
 nav {
     padding: 1.25em 1.25em 0.25em 1.25em;
     background: whitesmoke;
     min-height:2em;
-    max-height: 5em;
+    max-height: 3.5em;
     border-bottom: 0.1em solid darkgray;
+    border: 2px dashed red;
 }
 
 #nav-logo {
@@ -46,11 +51,9 @@ nav {
 }
 
 .header-container{
+    margin-top: 2em;
     padding-left: 1em;
-    min-height: 52%;       /* uses 50% of parent div (header element) height */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    border: 2px dashed red;
 }
 
 #header-text {
@@ -59,7 +62,7 @@ nav {
     font-size: 3.5em;
     font-style: normal;
     color: white;
-    padding-top: .25em;
+    padding-top: 1em;
 }
 
 #header-tagline{
@@ -70,8 +73,13 @@ nav {
 
 #header-scrolltext {
     color: white;
-    padding-bottom: 1em;
-    align-self: center;
+    padding-top: 2em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+main {
+    border: 2px solid violet;
 }
 
 .main-container {
@@ -80,6 +88,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 2px dashed violet;
 }
 
 #main-services,
