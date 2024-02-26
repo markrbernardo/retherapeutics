@@ -114,8 +114,13 @@ main {
 
 
 .main-button {
+    font-family: roboto, sans-serif;
+    font-size: .75em;
+    font-weight: 400;
+    font-style: normal;
     background: rgb(255, 221, 0);
     margin-top: 7em;
+    margin-bottom: 2em;
     padding: 0.5em 1em;
     max-width: 15em;
     border: 1px solid rgb(32, 51, 32);
