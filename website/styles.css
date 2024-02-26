@@ -29,12 +29,11 @@ body{
 
 header {
     background: rgb(71, 102, 71);
-    min-height: 90vh;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border: 2px solid red;
-    flex: 1;
 }
 
 nav {
@@ -46,36 +45,43 @@ nav {
     border: 2px dashed red;
 }
 
-#nav-logo {
+#nav-logo{
     padding-top: 0;
 }
 
 .header-container{
-    margin-top: 2em;
-    padding-left: 1em;
+    padding: 2em 1em 0em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
     border: 2px dashed red;
 }
 
-#header-text {
+.header-hero-text{
+    border: 2px dashed red;
+    flex: .25;
+}
+
+#header-text{
     font-family: playfair-display, serif;
     font-weight: 900;
     font-size: 3.5em;
     font-style: normal;
     color: white;
-    padding-top: 1em;
 }
 
 #header-tagline{
     color: white;
-    margin-bottom: auto;
     padding-top: 1em;
 }
 
 #header-scrolltext {
     color: white;
-    padding-top: 2em;
+    padding-top: .5em;
     padding-bottom: .5em;
     text-align: center;
+    border: 2px dashed red;
 }
 
 main {
@@ -87,7 +93,7 @@ main {
     min-height: 50vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     border: 2px dashed violet;
 }
 
@@ -120,7 +126,7 @@ main {
     font-style: normal;
     background: rgb(255, 221, 0);
     margin-top: 7em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     padding: 0.5em 1em;
     max-width: 15em;
     border: 1px solid rgb(32, 51, 32);
