@@ -20,6 +20,10 @@ p {
     font-style: normal;
 }
 
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
 body{
     font-size: calc(1.5em + 0.390625vw);
@@ -36,6 +40,13 @@ header {
     justify-content: space-between;
 }
 
+.header-page-content {
+    min-height: 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 nav {
     padding: 1.25em 1.25em 0.25em 1.25em;
     background: whitesmoke;
@@ -46,7 +57,19 @@ nav {
     justify-content: space-between;
 }
 
+a #nav-logo{
+    font-family: playfair-display, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.25em;
+    color: black;
+    padding-top: 0;
+}
+
 #nav-logo{
+    font-family: playfair-display, serif;
+    font-weight: 900;
+    font-style: normal;
     font-size: 1.25em;
     padding-top: 0;
 }
@@ -65,7 +88,7 @@ nav {
     background: black;
 }
 
-.header-container{
+.hero-container{
     padding: 2em 1em 0em 1em;
     display: flex;
     flex-direction: column;
@@ -73,11 +96,11 @@ nav {
     flex: 1;
 }
 
-.header-hero-text{
+.hero-text{
     flex: .36;
 }
 
-#header-text{
+#hero-text{
     font-family: playfair-display, serif;
     font-weight: 900;
     font-size: 3.5em;
@@ -85,20 +108,38 @@ nav {
     color: white;
 }
 
-#header-tagline{
+#hero-tagline{
     color: white;
     padding-top: 1em;
 }
 
-#header-scrolltext {
+.hero-scroll{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#hero-scrolltext {
     color: white;
-    padding-top: .5em;
+    font-size: .75em;
+}
+
+#hero-down-arrow{
+    color: white;
+    font-weight: 500;
+    font-size: 1.5em;
     padding-bottom: .5em;
-    text-align: center;
+}
+
+.header-container{
+    color: white;
+    padding: 0em 1em 1.5em 1em;
+    border: 0px solid red;
 }
 
 main {
-    border: 2px solid violet;
+    border: 0px solid violet;
 }
 
 .main-container {
@@ -152,6 +193,40 @@ main {
     align-self: center;
 }
 
+.therapist-card{
+    background: whitesmoke;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.therapist-label{
+    padding: .5em 2em;
+}
+
+.therapist-photo {
+    align-self: center;
+    height: auto;
+    flex: 1;
+}
+
+.therapist-stats{
+    flex: .75;
+}
+
+.therapist-name{
+    padding-top: 0;
+}
+
+.therapist-description{
+    padding: 0 2em;
+}
+
+#therapist-education{
+    margin-top: 2em;
+}
 
 footer {
     font-family: roboto, sans-serif;
@@ -162,4 +237,8 @@ footer {
     display: flex;
     justify-content: flex-end;
     border-top: 0.1em solid darkgray;
+}
+
+.flipH {
+    transform: scale(-1,1);
 }
