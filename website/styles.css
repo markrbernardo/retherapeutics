@@ -15,7 +15,7 @@ h1 {
 
 p {
     font-family: roboto, sans-serif;
-    font-size: .75em;
+    font-size: .9em;
     font-weight: 400;
     font-style: normal;
 }
@@ -42,11 +42,27 @@ nav {
     min-height:2em;
     max-height: 3.5em;
     border-bottom: 0.1em solid darkgray;
+    display: flex;
+    justify-content: space-between;
 }
 
 #nav-logo{
     font-size: 1.25em;
     padding-top: 0;
+}
+
+.hamburger-menu{
+    width: 1em;
+    height: 1.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bar1, .bar2, .bar3{
+    height: .1em;
+    width: 1em;
+    background: black;
 }
 
 .header-container{
@@ -138,6 +154,12 @@ main {
 
 
 footer {
+    font-family: roboto, sans-serif;
+    font-size: .75em;
+    font-weight: 400;
+    font-style: normal;
     padding: 0.5em;
+    display: flex;
+    justify-content: flex-end;
     border-top: 0.1em solid darkgray;
 }
