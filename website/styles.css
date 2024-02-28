@@ -28,6 +28,7 @@ h3 {
     font-style: normal;
     font-size: 1.25em;
     padding-top: 1em;
+    border-bottom: .3em solid rgb(164, 127, 85);
 }
 
 p {
@@ -151,7 +152,6 @@ nav {
 .header-container{
     color: white;
     padding: 0em 1em 1.5em 1em;
-    border: 0px solid red;
 }
 
 main {
@@ -220,15 +220,17 @@ main {
 
 .therapist-card{
     background: whitesmoke;
+    margin: .1em;
     padding: 2em 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 1em;
+    border: .2em solid rgb(71, 102, 71);
 }
 
 .therapist-label{
-    padding: .5em 2em;
+    padding: 0em 1.5em;
 }
 
 .therapist-photo {
