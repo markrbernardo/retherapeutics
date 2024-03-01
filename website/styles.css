@@ -272,7 +272,7 @@ footer {
 
 /* services CSS */
 
-.page-container{
+.service-section-container{
     max-height: 30em;
 }
 
@@ -281,11 +281,17 @@ footer {
 }
 
 .service-section-desc {
-    padding-left: 3.5em;
+    padding: 0em 3.5em;
 }
 
-.services-container{
+.service-scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.service-scroll-container{
     overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 1em 1em 1em 3em;
