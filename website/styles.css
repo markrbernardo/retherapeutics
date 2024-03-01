@@ -273,15 +273,11 @@ footer {
 /* services CSS */
 
 .page-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     max-height: 30em;
-    transform: translateY(12em);
 }
 
 .service-section-title{
-    padding: 3em 1em 0em 1em;
+    padding: 2em 1em 0em 1em;
 }
 
 .service-section-desc {
@@ -290,19 +286,17 @@ footer {
 
 .services-container{
     overflow: auto;
-    direction: rtl;
-    transform: rotate(-90deg) translateY(-20em);
-    transform-origin: right top;
-    max-width: 20em;
-    min-height: 35em;
     margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em 1em 1em 3em;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1.5em;
 }
 
 .service-card{
-    transform: rotate(90deg) translateY(10%) translateX(10%);
-    direction: ltr;
     border: .05em solid black;
-    width: 16em;
+    min-width: 14em;
     height: 18em;
     display: flex;
     flex-direction: column;
