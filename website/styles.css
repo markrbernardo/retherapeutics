@@ -269,6 +269,57 @@ footer {
     border-top: 0.1em solid darkgray;
 }
 
+
+/* services CSS */
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-height: 30em;
+    transform: translateY(12em);
+}
+
+.service-section-title{
+    padding: 3em 1em 0em 1em;
+}
+
+.service-section-desc {
+    padding-left: 3.5em;
+}
+
+.services-container{
+    overflow: auto;
+    direction: rtl;
+    transform: rotate(-90deg) translateY(-20em);
+    transform-origin: right top;
+    max-width: 20em;
+    min-height: 35em;
+    margin-top: 1em;
+}
+
+.service-card{
+    transform: rotate(90deg) translateY(10%) translateX(10%);
+    direction: ltr;
+    border: .05em solid black;
+    width: 16em;
+    height: 18em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.service-photo{
+    background-color: lightgray;
+    height: 60%;
+    width: 100%;
+}
+
+.service-label{
+    padding: 0em 1em 0.5em 1em;
+    height: 40%;
+}
+
 /* general individual-page css */
 
 .content-container {
@@ -283,7 +334,6 @@ footer {
 
 .content-description {
     padding: 1.5em 3em;
-
 }
 
 
