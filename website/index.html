@@ -7,17 +7,26 @@
         <link rel="stylesheet" href="https://use.typekit.net/mct5uvy.css">
     </head>
 
-
     <body>
+
         <header>
             <nav>
                 <span id="nav-logo">Relax + Embody Therapeutics</span>
-                <div class="hamburger-menu">
+                <div class="hamburger-menu" id="menu" onclick="openMenu()">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
                 </div>
             </nav>
+
+            <div id="slide-menu">
+                <h2 onclick="closeMenu()">close</h2>
+                <br/>
+                <a href="about.html">About</a>
+                <a href="our-therapists.html">Meet our Therapists</a>
+                <a href="services.html">Services</a>
+                <a href="what-to-expect.html">What to Expect</a>
+            </div>
 
             <div class="hero-container">
                 <div class="hero-text-container">
@@ -53,7 +62,7 @@
                     <h1>About Us</h1>
                     <p>Lorem ipsum hac orci nulla tempus, consequat felis hendrerit vestibulum orci himenaeos, scelerisque interdum elementum suspendisse. Nostra mauris purus ullamcorper morbi aliquam cubilia vitae, lacinia rutrum cursus varius vitae pharetra quis, adipiscing arcu a maecenas eu nulla.</p>
                 </div>
-                <a class="main-button inactive" href="">Learn More About Us</a>
+                <a class="main-button" href="about.html">Learn More About Us</a>
             </div>
 
             <div class="main-container" id="main-therapists">
@@ -92,6 +101,8 @@
         <footer>
             &copy; Mark R. Bernardo || 2024
         </footer>
-    
     </body>
+
+    <script src="app.js"></script>
+    
 </html>

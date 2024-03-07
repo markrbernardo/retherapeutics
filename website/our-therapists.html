@@ -11,12 +11,22 @@
         <header class="header-page-content">
             <nav>
                 <a id="nav-logo" href="index.html">Relax + Embody Therapeutics</a>
-                <div class="hamburger-menu">
+                <div class="hamburger-menu" id="menu" onclick="openMenu()">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
                 </div>
             </nav>
+
+            <div id="slide-menu">
+                <h2 onclick="closeMenu()">close</h2>
+                <br/>
+                <a href="about.html">About</a>
+                <a href="our-therapists.html">Meet our Therapists</a>
+                <a href="services.html">Services</a>
+                <a href="what-to-expect.html">What to Expect</a>
+            </div>
+
             <div class="header-container">
                 <h1>Meet Our Therapists</h1>
             </div>
@@ -60,5 +70,7 @@
         </footer>
 
     </body>
+
+    <script src="app.js"></script>
 
 </html>
